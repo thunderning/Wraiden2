@@ -68,6 +68,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_Wraiden2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -80,7 +81,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_Wraiden2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Wraiden2.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +111,10 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="GeneratedFiles\ui_Wraiden2.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Plane.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Wraiden2.qrc">
